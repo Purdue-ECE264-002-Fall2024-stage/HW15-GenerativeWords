@@ -55,4 +55,4 @@ Use a memory checker tool (such as Valgrind) to ensure there are no memory leaks
 
 Submission Instructions
 =======================
-Zip up only filechar.c for each part using the zip command and submit on gradescope.
+Please just submit generate.c on gradescope
