@@ -28,7 +28,7 @@ When a word is repeated, **ensure it updates the list of potential next words ra
 3. *Free the used memory:*
 Implement free_word_list to free the data structure used
 
-***EXAMPLEඞ***
+***EXAMPLE***
 - **Example String for training: "Do or do not or try -- or don't"**
 - Training Iteration 1: Current word "Do", no previous word so just add to wordbank as a node
 - Training Iteration 2: Current word "or", previous word is "Do" so add "or" to nextList of "Do" and add "or" to wordbank
