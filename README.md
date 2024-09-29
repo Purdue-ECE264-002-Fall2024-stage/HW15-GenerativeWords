@@ -65,7 +65,7 @@ As an example, consider a training based on the public domain<sup>[1](#myfootnot
 >
 > Happy birthday to you!
 
-- **Iterations**
+**Iterations**
 - Training Iteration 1: Current word "Happy", add to word bank as a node, capital 'H' and all.
 - Training Iteration 2: Current word "birthday", previous word is "Happy".  Add "birthday" to word bank as a node and to the list of words that can follow "Happy" in that node's list.
 - Training Iteration 3: Current word "to", previous word is "birthday".  Add "to" to word bank as a node and to the list of words that can follow "birthday" in that node's list.
