@@ -18,7 +18,7 @@ What you need to do
 Write code to read the input file and extract words.
 As you read the words, link each word to the words that follow it in the text. Store these links in a dynamic data structure.
 For the purpose of simplicity, a word will be defined as a whitespace-seperated set of characters. Punctuation would
-stick to words or be its own word. Words with different capitalization will be treated differently.
+stick to words or be its own word. Words with different capitalization will be treated differently. **New lines are ignored.**
 
 2. *Build the Markov Chain:*
 For each word, create a structure (WordNode) that stores the word and the list of words that can follow it.
