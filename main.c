@@ -16,7 +16,11 @@ void generate_text(WordNode *wordList[], int wordCount, int wordLimit) {
     WordNode *current = wordList[get_random_index(wordCount)];
     printf("%s", current->word);
     for (int i = 1; i < wordLimit; i++) {
-        if (current->nextWordCount == 0) current = wordList[get_random_index(wordCount)];
+        if (current->nextWordCount == 0) {
+            current = wordList[get_random_index(wordCount)];
+            printf(" %s", current->word);
+            continue;
+        }
         current = current->nextWords[get_random_index(current->nextWordCount)];
         printf(" %s", current->word);
     }
