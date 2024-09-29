@@ -47,4 +47,4 @@ memcheck:
 	valgrind --leak-check=full --show-leak-kinds=all ./$(EXEC) $(TEST_DIR)/TimeMachine.txt $(GENERATED_WORDS)
 
 clean: 
-	rm -f hw03 *.o output?? *~
+	rm -f wordgen *.o output?? *~

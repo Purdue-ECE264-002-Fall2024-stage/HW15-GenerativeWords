@@ -30,15 +30,6 @@ typedef struct WordNode {
 void train_markov(FILE *file, WordNode *wordList[], int *wordCount);
 
 /**
- * @brief Function to generate random text using the trained Markov chain.
- * 
- * @param wordList - An array of pointers to WordNode, representing the word transitions.
- * @param wordCount - The number of words in wordList.
- * @param wordLimit - The number of words to generate.
- */
-void generate_text(WordNode *wordList[], int wordCount, int wordLimit);
-
-/**
  * @brief Function to free dynamically allocated memory for the word list.
  * 
  * @param wordList - An array of pointers to WordNode, representing the word transitions.
